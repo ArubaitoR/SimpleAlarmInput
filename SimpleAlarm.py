@@ -40,7 +40,7 @@ def set_alarm():
                 return
             time.sleep(1)
         mixer.init()
-        mixer.music.load('alarm.mp3')
+        mixer.music.load('alarm.wav')
         mixer.music.play(-1)
         messagebox.showinfo("Alarm", "Time's up!")
         stop_alarm()
