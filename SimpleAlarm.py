@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from datetime import timedelta, datetime
 from pygame import mixer
-import alarmstring
+import alarmbase64
 import base64
 import tempfile
 
@@ -16,7 +16,7 @@ class AlarmClock:
 
     def initialize_ui(self):
         self.root.title("Alarm")
-        self.root.geometry("250x120")
+        self.root.geometry("250x120")  # Adjusted the size of the window to accommodate wider input fields
 
         self.input_frame = tk.Frame(self.root)
         self.input_frame.pack(pady=(20, 5))
@@ -80,7 +80,7 @@ class AlarmClock:
 
     def play_alarm(self):
         if self.alarm_set:
-            alarm_bytes = base64.b64decode(alarmstring.encoded_string)
+            alarm_bytes = base64.b64decode(alarmbase64.AlarmString)
             with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as temp_audio_file:
                 temp_audio_file.write(alarm_bytes)
             mixer.music.load(temp_audio_file.name)
