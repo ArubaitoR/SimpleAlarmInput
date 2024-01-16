@@ -9,4 +9,6 @@ Audio is converted to base64 in order to make it possible to embed it into a sin
 Free alarm sound from https://mixkit.co/free-sound-effects/alarm/
 
 # Preview
-![AlarmDemo](https://github.com/ArubaitoR/SimpleAlarmInput/assets/103828697/fbc8f631-06ca-4be6-8d24-f05d7734510f)
+<p align="center">
+  <img src="https://github.com/ArubaitoR/SimpleAlarmInput/assets/103828697/fbc8f631-06ca-4be6-8d24-f05d7734510f"/>
+</p>
