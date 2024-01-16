@@ -5,4 +5,5 @@ Serve as a reminder for simple short duration stuff such as leaving the stove on
 
 # Audio
 Audio is converted to base64 in order to make it possible to embed it into a single executable, better portability. The string is then used to recreate the audio as temporary file
+
 Free alarm sound from https://mixkit.co/free-sound-effects/alarm/
