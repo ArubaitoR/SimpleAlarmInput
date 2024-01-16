@@ -7,3 +7,6 @@ Serve as a reminder for simple short duration stuff such as leaving the stove on
 Audio is converted to base64 in order to make it possible to embed it into a single executable, better portability. The string is then used to recreate the audio as temporary file
 
 Free alarm sound from https://mixkit.co/free-sound-effects/alarm/
+
+# Preview
+![AlarmDemo](https://github.com/ArubaitoR/SimpleAlarmInput/assets/103828697/fbc8f631-06ca-4be6-8d24-f05d7734510f)
